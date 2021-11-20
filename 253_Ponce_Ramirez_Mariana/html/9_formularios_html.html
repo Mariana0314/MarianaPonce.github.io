@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios</title>
+<link href="../css/formularios-estilo.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+		<h1>Formularios en HTML5</h1>
+	</header>
+	<nav><ul>
+					<li><a href="1_mi_primera_pagina.html">Mi primera página</a></li>
+					<li><a href="2_listas_html.html">Listas</a></li>
+					<li><a href="3_tabla_html.html">Tablas</a></li>
+					<li><a href="4_enlaces_html.html">Enlaces</a></li>
+					<li><a href="5_imagenes_html.html">Imágenes</a></li>
+					<li><a href="6_audio_html.html">Audio</a></li>
+					<li><a href= "7_video_html.html">Video</a></li>
+					<li><a href="8_animacion_html.html">Animacion</a></li>
+					<li><a href="9_formularios_html.html">Formularios</a></li>
+					<li><a href="11action_page.html">Action Page</a></li>
+					<li><a href="12_tarea_formulario.html">Tarea formulario</a></li>
+					<li><a href="13_diademuertos_html.html">Día de muertos</a></li>
+					<li><a href="14_flexbox_html.html">Flex Box</a></li>
+					<li><a href="15_media quaris_html.html">Media Queris</a></li>
+				</ul></nav>
+	<main>
+		<section>
+			<h2>Insersion de formularios</h2>
+			<form method="get" action="11action_page.html">
+				<label>Nombre</label>
+				<input type="text" id= "idname" name= "nombre">
+				<input type="submit" name="button" id="button" value="Enviar">
+			</form>
+		</section>
+		
+		<section>
+			<h2>Insersion de formulario con casillas de verificación</h2>
+			<form method="get" action="11action_page.html">
+				<label>¿Cúales son tus géneros musicales que prefieres?</label>
+				<input type="checkbox" id= "generom1" name= "generom" value="Pop">
+				<label>Pop</label>
+				<input type="checkbox" id= "generom2" name= "generom" value="Rock">
+				<label for="">Rock</label>
+				<input type="checkbox" id= "generom3" name= "generom" value="Jazz">
+				<label for="">Jazz</label>
+				<input type="checkbox" id= "generom4" name= "generom" value="Alternativa">
+				<label for="">Alternativa</label>
+				<input type="submit" name="button2" id="button2" value="Enviar">
+			</form>
+		</section>
+		
+		<section>
+			<h2>Insersion de formulario con botones de radio</h2>
+			<form method="get" action="11action_page.html">
+			  <h3>Género:</h3>
+			  <input type="radio" name="radio" id="radio1" value="radio1">
+              <label for="radio">Femenino&nbsp;</label>
+                <input type="radio" name="radio" id="radio2" value="radio2">
+                <label for="radio2">Masculino&nbsp; </label>
+				<input type="submit" name="button3" id="button3" value="Enviar">
+          </form>	
+		</section>
+		
+	  <section>
+		<h2>Formulario de contacto</h2>
+		  <form method="get" action="11action_page.html">
+			  <h3>Contacto</h3>
+			  <table width="50%" border="0">
+				  <tbody>
+					  <tr>
+						  <td><label for="textfield">Nombre&nbsp;</label>&nbsp;</td>
+						  <td> <input type="text" name="textfield" id="textfield">&nbsp;</td>
+					  </tr>
+					  <tr>
+						  <td><label for="textfield2">Email&nbsp;</label>&nbsp;</td>
+						  <td><input type="text" name="textfield2" id="textfield2">&nbsp;</td>
+					  </tr>
+					  <tr>
+						  <td><label for="textfield2">Mensaje&nbsp;</label>&nbsp;</td>
+						  <td><textarea name="textarea" id="textarea"></textarea>&nbsp;</td>
+					  </tr>
+					  <tr>
+						  <td><input type="submit" name="button4" id="button4" value="Enviar">&nbsp;</td>
+						  <td>&nbsp;</td>
+					  </tr>
+				  </tbody>
+			  </table>			
+		  </form>	
+		</section>
+		
+	<section>
+		<h2>Formulario de Ingreso o Login</h2>
+		<form method="get" action= "11action_page.html">
+            <div><label>Usuario</label>
+				<input type="text" id= "idus" name= "nombre"></div>
+            <div><label for="username">Contraseña:</label>
+            <input type="password"></div>
+            <div><input type="checkbox"><label class="check" for="checkbox">Mantener sesión abierta</label></div>
+			<div><input type="submit" name="button" id="button" value="Login"></div>
+        </form>       	 
+	</section>
+
+	<h5 class="borrar">_</h5>
+</main>
+<footer>
+  <h5>Elaborado por: Mariana Ponce Ramirez</h5>
+</footer>
+</body>
+</html>

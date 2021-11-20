@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Caveat&family=Handlee&family=Parisienne&display=swap');
+
+.Encabezado {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+	color: #005660;
+	text-align: center;
+	
+	background-color: #CCECF3;
+	border: double 20px #85C3CB;
+	padding: 20px;
+	padding-bottom: 25px;
+}
+
+.pie {
+font-family: 'Amatic SC', cursive;
+font-size:40px;
+color: #005762;
+text-align: center;
+padding-bottom: 70px;
+padding-top: 0px;
+	background-color: #E1F3F7;
+	border: double 15px #85C3CB;
+}
+
+header {
+background-color: #CAD1F9;
+	color: #FAF9FA;
+text-align: center;
+font-size: 40px;
+padding-top: 25px;
+padding-right: 0px;
+padding-left: px;
+padding-bottom: 25px;
+margin: 0;
+font-family: bebas neue;
+}
+
+footer {
+width: auto;
+background-color: #014853;
+height: 40px;
+text-align: center;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 0px;
+padding-left: 30px;
+}
+
+section {
+background-color: #60E4FA;
+padding-top: 40px;
+padding-right: 40px;
+padding-left: 40px;
+ adding-bottom: 40px;
+margin-top: 60px;
+margin-right: 60px;
+margin-left: 60px;
+margin-bottom: 60px;
+border: 18px double #F9FBFB;
+}
+
+h2 {
+font-family: bebas neue;
+text-decoration: underline;
+color: #024B4C;
+}
+
+nav {
+height: 58px;
+background-color: #52E3FA;
+padding-top: 20px;
+padding-bottom: 78px;
+padding-right: 20px;
+padding-left: 20px;
+margin-bottom: 0px;
+font-size: 22px;
+}
+nav ul li {
+display: inline-block;
+margin-left: 10 px;
+margin-right: 10 px;
+color: #FFFFFF;
+font-weight: bolder;
+text-align: center;
+margin-top: 0px;
+padding-top: 40px;
+padding-right: 40px;
+padding-bottom: 75px;
+padding-left: 40px;
+}
+main {
+background-color: #CAD1F9;
+margin-top: 0px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+#picture1 {
+float: left;
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+ #seccion3 {
+width: auto;
+height: auto;
+overflow: auto;
+}
+ .margin1 {
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+}
+.mar {
+}
+.opacidad1 {
+opacity: 0.5;
+}
+.opacidad2 {
+opacity: 0.25;
+	filter: grayscale (50%);
+}
+ .brillo {
+filter: brightness(100%);
+}
+.grises {
+filter: grayscale(100%);
+}
+.blur {
+filter: blur (7px);
+}
+.desenfoque {
+filter: blur(5px);
+}
+.contraste {
+filter: contrast(50%);
+}
+ .saturacion {
+filter: saturate(20%);
+}
+.sepia {
+ filter: sepia(70%);
+}
+.invertir {
+filter: invert(70%);
+}
+.rotar {
+	filter: hue-rotate(90dg);
+}

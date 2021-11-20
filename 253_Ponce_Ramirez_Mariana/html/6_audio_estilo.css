@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+#picture1 {
+	margin: 10px;
+	float: left;
+}
+h1{font-family: 'Dancing Script', cursive;
+}
+h2 {
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+	color: #4A005E; 
+}
+
+#video1 {
+	width: 50%;
+	height: auto;
+}
+
+@media screen{
+header {
+	background-color: #41A5B9;
+	color: #FFFFFF;
+	font-size: 48px;
+	text-align: center;
+}
+nav {
+	height: auto;
+	background-color: #8CE2F4;
+}
+* {
+	padding: 0;
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+main {
+	background-color: #41A5B9;
+	color: #12002C;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+}
+footer {
+	height: 70px;
+	background-color: #A8ECFB;
+}
+
+header, nav, main {
+	width: 90%;
+}
+	footer{
+	width: 90%;
+}
+body nav ul {
+	text-decoration: none;
+	list-style-type: none;
+}
+nav ul li {
+	display: inline-block;
+	margin-left: 40px;
+	padding-top: 19px;
+	padding-bottom: 19px;
+	margin-right: 40px;
+	color: #FFFFFF;
+	font-weight: normal;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	color: #4A005E;
+	}
+
+body main section   {
+	background-color: #FAEC92;
+	margin-top: 50px;
+	padding:20px;
+	margin-bottom: 50px;
+	margin-left: 0px;
+	border: 10px dotted #F5B71D;
+}
+footer h5 {
+	color: #004B74;
+	text-align: center;
+	font-size: 18px;
+	padding-left: 29px;
+	padding-top: 29px;
+	padding-bottom: 29px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+}
+
+a:link{
+	color: #471C50;
+	font-weight: bolder;
+}
+a:visited{
+	color:#A843BD;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #4754BE;
+	font-size: large;
+	font-weight: bold;
+}

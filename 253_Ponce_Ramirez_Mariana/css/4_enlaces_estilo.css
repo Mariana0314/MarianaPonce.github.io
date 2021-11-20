@@ -1,0 +1,196 @@
+charset "utf-8";
+@import url("audio-styile.css");
+#picture1 {
+	margin: 10px;
+	float: left;
+}
+h2 {
+	text-align: center;
+}
+
+#seccion4 {
+	overflow: auto;
+}
+.margin1 {
+	margin: 10px;
+}
+.opacity {
+	opacity: 0.5;
+}
+.opacidad2 {
+	opacity: 0.25;
+}
+.grices {
+	filter: grayscale(100);
+}
+.desenfoque {
+	filter: blur(5px);
+}
+.brillo {
+	filter: brightness(150%);
+}
+.sombra-paralela {
+	filter: drop-shadow(10px 8px 10px #9F65CC);
+}
+
+.contraste {
+	filter: contrast(50%);
+}
+.saturacion {
+	filter: saturate(50%);
+}
+.sepia {
+	filter: sepia(100%);
+}
+.invertir {
+	filter: invert(100%);
+}
+.rotar_tono {
+	filter: hue-rotate(90deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen{
+header {
+	background-color: #FFC9A5;
+	color: #FFFFFF;
+	font-size: 48px;
+	text-align: center;
+}
+nav {
+	height: 50px;
+	background-color: #8CE2F4;
+}
+* {
+	padding: 0;
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+main {
+	background-color: #FFC9A5;
+	color: #FFFFFF;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+}
+footer {
+	height: 70px;
+	background-color: #8CE2F4;
+}
+
+header, nav, main {
+	width: 80%;
+}
+	footer{
+	width: 80%;
+}
+body nav ul {
+	text-decoration: none;
+	list-style-type: none;
+}
+nav ul li {
+	display: inline-block;
+	margin-left: 40px;
+	padding-top: 17px;
+	padding-right: 17px;
+	padding-left: 17px;
+	padding-bottom: 17px;
+	margin-right: 40px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+
+body main section   {
+	background-color: #E1CCFF;
+	margin-top: 50px;
+	padding:20px;
+	margin-bottom: 50px;
+	margin-left: 0px;
+	border: 5px dotted #FDDDC8;
+}
+footer h5 {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 18px;
+	padding-left: 29px;
+	padding-top: 29px;
+	padding-bottom: 29px;
+}
+
+}
+
+a:link{
+	color: #41A5B9;
+	font-weight: bolder;
+}
+a:visited{
+	color:#FFC9A5;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #F6DC33;
+	font-size: large;
+	font-weight: bold;
+}
+.enlace1 {
+}
+#enlace1 {
+}
+.enlace2 {
+}
+#enlace2 {
+}
+#enlace3 {
+}
+#enlace4 {
+}
+
+
+img{
+	width: 20%;
+	margin-top: 30px;
+}
+.opacity {
+}
+.opacidad2 {
+}
+body footer h6 {
+}
+
+.grices {
+}
+.desenfoque {
+}
+.brillo {
+}
+.contraste {
+}
+.saturacion {
+}
+.sepia {
+}
+.invertir {
+}
+.rotar_tono {
+}
+.sombra-paralela {
+}

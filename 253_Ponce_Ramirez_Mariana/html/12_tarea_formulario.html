@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios</title>
+<link href="../css/tarea_formulario_estilo.css" rel="stylesheet" type="text/css">
+<link href="11_tarea-formulario_estilo.css" rel="stylesheet" type="text/css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/allan:n7:default;bree-serif:n4:default.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<header>
+	  <h1>Formulario de Registro</h1>
+	</header>
+			<nav>
+				<ul>
+					<li><a href="1_mi_primera_pagina.html">Mi primera página</a></li>
+					<li><a href="2_listas_html.html">Listas</a></li>
+					<li><a href="3_tabla_html.html">Tablas</a></li>
+					<li><a href="4_enlaces_html.html">Enlaces</a></li>
+					<li><a href="5_imagenes_html.html">Imágenes</a></li>
+					<li><a href="6_audio_html.html">Audio</a></li>
+					<li><a href= "7_video_html.html">Video</a></li>
+					<li><a href="8_animacion_html.html">Animacion</a></li>
+					<li><a href="9_formularios_html.html">Formularios</a></li>
+					<li><a href="11action_page.html">Action Page</a></li>
+					<li><a href="14_flexbox_html.html">Flex Box</a></li>
+					<li><a href="15_media quaris_html.html">Media Queris</a></li>
+				</ul>
+			</nav>  
+	<main>
+		<section>
+		  <h2>Información Personal</h2>
+			<form method="get" action="11action_page.html">
+				
+		  <div>
+		    <h3><label>Nombre</label></h3>
+			  	<input type="text" id= "idnombre" name= "nombre" placeholder="Ingrese su Nombre">
+			</div>
+				
+		  <div>
+		    <h3><label>Apellido</label></h3>
+			  	<input type="text" id= "idapellido" name= "apellido" placeholder="Ingrese su Apellido">
+			</div>
+			
+		  <div>
+				<h3><label>Número Celular</label></h3>
+            	<input type="tel" name="tel" id="tel" placeholder="Ingrese su número de celular">
+			</div>
+			
+		  <div>
+            	<h3><label for="date">Fecha de nacimiento</label></h3>
+			  	<input type="date" name="cumpleanios" step="1" min="1980-01-01" max="2003-12-31" value="0000-00-00">
+			</div>
+			
+		  <div>
+            	<h3><label for="select">Nacionalidad</label></h3>
+            	<select name="nacionalidad">
+					<option>Seleccionar</option>
+					<option>Mexicano</option>
+					<option>Extranjero</option>
+				</select>
+			</div>
+				
+			<div>
+				<h3><label for="textfield2">Correo Electronico&nbsp;</label></h3>
+				 <input type="text" name="textfield2" id="textfield2" placeholder="Ingrese su Correo">
+			</div>
+				
+		  <div>
+				<h3><label for="username">Contraseña</label></h3>
+           		<input type="password" placeholder="Ingrese su Contraseña">
+			</div>
+			
+				
+		  <div>
+			  	<h3>Género:</h3>
+			  	<input type="radio" name="radio" id="radio1" value="radio1">
+              	<label for="radio">Femenino&nbsp;</label>
+                <input type="radio" name="radio" id="radio2" value="radio2">
+                <label for="radio2">Masculino&nbsp; </label>
+				<input type="radio" name="radio" id="radio3" value="radio3">
+                <label for="radio2">Personalizado&nbsp; </label>
+			</div>
+				
+		  
+			<div>
+		  <h3>Selección de foto de perfil</h3>
+			  <form name="foto" method="post" action="/send.php" enctype="multipart/form-data">
+  				<input type="file" name="adjunto" accept=".pdf,.jpg,.png">
+			</form>
+			</div>
+			
+			<div>
+			  <p>
+			    <label>
+			      <input type="checkbox" name="CheckboxGroup1" value="casilla de verificación " id="CheckboxGroup1_0">
+			      He leído y acepto los términos y condiciones de registro. </label>
+			    <br>
+			    <label>
+			      <input type="checkbox" name="CheckboxGroup1" value="casilla de verificación " id="CheckboxGroup1_1">
+			      Acepto la politica de cookies y recibir novedades y promociones.&nbsp; </label>
+			    <br>
+		      </p>
+			</div>
+					
+	<div>
+		<form method="get" action="11action_page.html">
+		<input type="submit" name="button" id="button" value="REGISTRAR">
+			</form>
+		</div>
+				
+	</form>
+	  </section>
+	<h5 class="borrar">_</h5>
+</main>
+<footer>
+  <h5>Elaborado por: Mariana Ponce Ramirez</h5>
+</footer>
+</body>
+</html>

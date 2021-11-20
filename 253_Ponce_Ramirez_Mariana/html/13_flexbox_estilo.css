@@ -1,0 +1,129 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+@import url ('https://fonts.googleapis.com/css2? family = Amatic + SC: wght @ 700 & display = swap');
+#picture1 {
+	margin: 10px;
+	float: left;
+}
+h1 {
+	color: #FFFFFF;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 100px;
+}
+h2 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: #B266E4;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+footer h5 {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+   section ul li {
+	color: #511540;
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
+	font-size: 16px;
+	padding-left: 29px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-right: 29px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+@media screen{
+header {
+	background-color: #E395CD;
+	color: #FFFFFF;
+	font-size: 48px;
+	text-align: center;
+}
+nav {
+	height: 100px;
+	background-color: #FFFB97;
+}
+* {
+	padding: 0;
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+main {
+	background-color: #E395CD;
+	color: #12002C;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+}
+footer {
+	height: 70px;
+	background-color: #79697F;
+}
+
+header, nav, main {
+	width: 90%;
+}
+	footer{
+	width: 90%;
+}
+body nav ul {
+	text-decoration: none;
+	list-style-type: none;
+	margin-bottom: 0px;
+}
+nav ul li {
+	display: inline-block;
+	margin-left: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-right: 30px;
+	color: #FFFFFF;
+	font-weight: normal;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+a:link{
+	color: #F4B120;
+	font-weight: bolder;
+}
+a:visited{
+	color: #A30083;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #5E0064;
+	font-size: large;
+	font-weight: bold;
+}
+
+
+body main section   {
+	background-color: #E1CCFF;
+	margin-top: 50px;
+	padding:20px;
+	margin-bottom: 50px;
+	margin-left: 0px;
+	border: 10px dotted #FFFFFF;
+}
+footer h5 {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 18px;
+	padding-left: 29px;
+	padding-top: 29px;
+	padding-bottom: 29px;
+}

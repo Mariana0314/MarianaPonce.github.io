@@ -1,0 +1,151 @@
+@charset "utf-8";
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+p {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #FFFFFF;
+}
+h1 {
+	color: #FFFFFF;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 100px;
+}
+h2 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: #B266E4;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+footer h5 {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+body nav ul {
+	text-decoration: none;
+	list-style-type: none;
+	margin-bottom: 0px;
+}
+nav ul li {
+	display: inline-block;
+	margin-left: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-right: 30px;
+	color: #FFFFFF;
+	font-weight: normal;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+a:link{
+	color: #F4B120;
+	font-weight: bolder;
+}
+a:visited{
+	color: #A30083;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #5E0064;
+	font-size: large;
+	font-weight: bold;
+}
+body{
+	background-color: #1F7B97;
+	color: aliceblue;
+}
+h1{
+	width: 100%px;
+	background-color: saddlebrown;
+	color: blanchedalmond;
+}
+nav{
+	height: auto;
+	background-color: blanchedalmond;
+}
+main{
+	height: auto;
+	color: #FBF7FA;
+	background-color: #AFAFF3;
+}
+footer{
+	height:30px;
+	background-color: #33334E;
+}
+.flex-conteiner{
+	display: flex;
+	background-color: darkorange;
+}
+
+.flex-conteiner>div{
+	background-color: darksalmon;
+	margin: 10px;
+	padding: 10px;
+	
+}
+.picture{
+	width: 100%;
+	height: auto;
+}
+
+@media (max-width:360px){
+	body{
+	background-color: #006232;
+	color: #E0CF85;
+	
+	}
+	nav, main, footer{
+		width: 100%;
+		padding: 10px;
+	}
+.flex-conteiner{
+	flex-direction: colum;
+}
+.flex-conteiner> div{
+
+}
+.picture{
+	width: 50%;	
+}
+
+}
+	
+	@media (max-width:640px) and (orientation: landscape) {
+	body {
+		background-color: #ED756E;
+		text-shadow: 0px 0px #5B440B;
+	}
+	nav, main, footer{
+		width: 90%;
+		padding: 30px;
+	}
+}
+.picture{
+	width: 50%;	
+}
+
+@media screen and (min-width:768px){
+	body{
+		text-shadow: 0px 0px #FBF7FA;
+		background-color: #220001;
+	}
+	.felx-conteiner{
+		justify-content: center;
+	}
+	.flex-conteiner>div {
+		width: 30%;
+	}
+.picture{
+	width: 50%;	
+}	
+	
+}
+

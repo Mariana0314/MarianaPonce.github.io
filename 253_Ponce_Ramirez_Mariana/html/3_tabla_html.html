@@ -1,0 +1,315 @@
+<!doctype html>
+<html>
+<head>
+			<meta charset="utf-8">
+			<title>tablas en html</title>
+<style type="text/css">
+			
+			#151723; 
+			#2a2642;
+			#5c5489; 
+			#fabc28; 
+			#E2d5d0; 
+				}	
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		h1{
+			color:#E2d5d0;
+			font-size:50px
+			}
+		h2{
+	color: #FFAE28;
+	font-size: 30px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+			}
+		h5{
+	color: #E2d5d0;
+	font-size: 20px;
+	padding-top: 0px;
+	margin-top: -20px;
+			}
+		header,footer,main,nav{
+					width: 1024px;
+					margin: 0 auto; /*centra la caja automaticamente en horizontal*/
+					padding: 20px;
+				}
+		header, footer{
+			padding: 20px;
+			text-align:center;
+			background-color: #151723; 
+				}
+ul li a {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+		nav{
+	height: 49px;
+	width: 1024px;
+	padding: 20px;
+	background-color: #5c5489;
+				}
+		main{
+			background-color: #2a2642;
+			height: auto;
+				}
+				section{
+					background-color: #151723;
+					margin: 40px;
+					padding:20px;
+					}
+				table{
+					border-collapse: collapse;
+				}
+		th,td{
+			padding: 10px;
+				}
+		th{
+			text-align:center;
+			background-color:#fabc28;
+			color: #151723; 
+				}
+		td{
+			background-color: #E2D5D0;
+			color: #151723; 
+				}
+				#t01{
+					border: double 4px #E2d5d0;  
+				}
+		#t01 th{
+			background-color:#ec5489;
+			border:groove4px#E2d5d0; 
+				}
+		#t01 td{
+			background-color:#fabc28;
+			border:groove3px#E2d5d0; 
+				}
+				#02 th, #th02 td{
+					padding: 15px;
+					text-align: left;
+				}
+				#t02 tr: nth-child(even){
+					background-color: #2A642;
+				}
+				#t02 tr:nth-child(odd){
+					background-color: #8ED48F;
+				}
+				.tabla th{
+					background-color: #FE724C;
+				}
+				.tabla td{
+					background-color: #E2D5D0;
+				}
+				.tabla tr: over{
+					background-color: #E0D16F;
+				}
+th   , td{
+	color: #2E2E2E;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+</style>
+			<link href="3_tabla_estilo.css" rel="stylesheet" type="text/css">
+</head>
+	
+<body>
+	<header>
+	<h1>TABLAS EN HTML</h1>
+	</header>
+	<nav>
+	<ul>
+					<li><a href="1_mi_primera_pagina.html">Mi primera página</a></li>
+					<li><a href="2_listas_html.html">Listas</a></li>
+					<li><a href="3_tabla_html.html">Tablas</a></li>
+					<li><a href="4_enlaces_html.html">Enlaces</a></li>
+					<li><a href="5_imagenes_html.html">Imágenes</a></li>
+					<li><a href="6_audio_html.html">Audio</a></li>
+					<li><a href= "7_video_html.html">Video</a></li>
+					<li><a href="8_animacion_html.html">Animacion</a></li>
+					<li><a href="9_formularios_html.html">Formularios</a></li>
+					<li><a href="11action_page.html">Action Page</a></li>
+					<li><a href="12_tarea_formulario.html">Tarea formulario</a></li>
+					<li><a href="13_diademuertos_html.html">Día de muertos</a></li>
+					<li><a href="14_flexbox_html.html">Flex Box</a></li>
+					<li><a href="15_media quaris_html.html">Media Queris</a></li>
+				</ul></nav>
+	<main>
+		<section><h2>Tabla simple</h2>
+			<table id="t02" border="1">
+				<thead>
+					<tr>
+						<th>Nombre</th>
+						<th>Email</th>
+						<th>Teléfono</th>
+					</tr>
+				</thead>
+					<tr>
+						<td>Daniel Vazquez</td>
+						<td>dany.vazquez@gmail.com</td>
+						<td>2223717676</td>
+					</tr>
+					<tr>
+						<td>Maria Guadalupe Sanchez</td>
+						<td>lupita23@gmail.com</td>
+						<td>2222567890</td>
+					</tr>
+					<tr>
+						<td>Juan Esquivel</td>
+						<td>juan45.es@gmail.com</td>
+						<td>2223567865</td>
+					</tr>
+					<tr>
+						<td>Mariana Ponce</td>
+						<td>marilov0314@gmail.com</td>
+						<td>2221234567</td>
+					</tr>
+					<tr>
+						<td>Ruben Garcia</td>
+						<td>rub.53garcia@gmail.com</td>
+						<td>2223567890</td>
+					</tr>
+				<tfoot></tfoot>
+		</table>
+		</section>
+		<section>
+		<h2>Tabla con celda que abarca dos columnas</h2>
+		<table border="1">
+			<thead></thead>
+			<tr>
+					<th>Nombre</th>
+					<th colspan="2">Teléfono</th>
+			</tr>
+			<tbody>
+				<tr>
+					<td>Georgina Lopez</td>
+					<td>222 2345678</td>
+					<td>2323456789</td>
+				</tr>
+				<tr>
+					<td>Hector Cortez</td>
+					<td>555 2345678</td>
+					<td>5553456789</td>
+				</tr>
+				<tr>
+					<td>Mercedes Villa</td>
+					<td>777 2345678</td>
+					<td>7778976543</td>
+				</tr>
+			</tbody>
+			<tfoot></tfoot>
+		</table>
+		</section>
+		<section><h2>Tabla modificada</h2>
+			<table id="t02" border="1">
+				<thead>
+					<tr>
+						<th>Nombre</th>
+						<th>Email</th>
+						<th>Teléfono</th>
+					</tr>
+				</thead>
+				<tbody></tbody> 
+					<tr>
+						<td>Daniel Vazquez</td>
+						<td>dany.vazquez@gmail.com</td>
+						<td>2223717676</td>
+					</tr>
+					<tr>
+						<td>Maria Guadalupe Sanchez</td>
+						<td>lupita23@gmail.com</td>
+						<td>2222567890</td>
+					</tr>
+					<tr>
+						<td>Juan Esquivel</td>
+						<td>juan45.es@gmail.com</td>
+						<td>2223567865</td>
+					</tr>
+					<tr>
+						<td>Mariana Ponce</td>
+						<td>marilov0314@gmail.com</td>
+						<td>2221234567</td>
+					</tr>
+					<tr>
+						<td>Ruben Garcia</td>
+						<td>rub.53garcia@gmail.com</td>
+						<td>2223567890</td>
+					</tr>
+				<tfoot></tfoot>
+		</table>
+		</section>
+		<section>
+		<table width="600" border="1" id= "t01">
+			<thead>
+				<tr>
+					<th scope="col">Nombre</th>
+						<th scope="col">Apellidos</th>
+						<th scope="col">Edad</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Maria</td>
+					<td>Flores Jimenez</td>
+					<td>15</td>
+				</tr>
+				<tr>
+					<td>Jose Manuel</td>
+					<td>Gomez Perez</td>
+					<td>13</td>
+				</tr>
+				<tr>
+					<td>Andrea</td>
+					<td>Ponce Ramirez</td>
+					<td>18</td>
+				</tr>
+			</tbody>
+			<tfoot></tfoot>
+		</table>
+		</section>
+		<section>
+		<table width="600" border="1" id= "t01">
+			<thead>
+				<tr>
+					<th scope="col">Nombre</th>
+						<th scope="col">Edad</th>
+						<th scope="col">Género</th>
+						<th scope="col">Deporte</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Maria Lopez</td>
+					<td>15</td>
+					<td>Femenino</td>
+					<td>Fut</td>
+				</tr>
+				<tr>
+					<td>Gabriela Hernandez</td>
+					<td>12</td>
+					<td>Femenino</td>
+					<td>Basquet</td>
+				</tr>
+				<tr>
+					<td>Andrea Ponce</td>
+					<td>18</td>
+					<td>Femenino</td>
+					<td>Natación</td>
+				</tr>
+				<tr>
+					<td>Nicolas Ponce</td>
+					<td>15</td>
+					<td>Masculino</td>
+					<td>Tenis</td>
+				</tr>
+			</tbody>
+			<tfoot></tfoot>
+		</table>
+		</section>
+		<h5>.</h5>
+	</main>
+	<footer>
+	               <h5>Elaborado por: Mariana Ponce Ramirez</h5>
+	      </footer>
+</body>
+</html>
